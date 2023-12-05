@@ -34,3 +34,15 @@ body {
 .sticky-header nav ul li a:hover {
   color: #007bff;
 }
+
+/* Additional content styles */
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.content.sticky-content p {
+  font-size: 16px; /* Adjust font size for sticky content */
+  margin-top: 70px; /* Example margin change for sticky content */
+}
